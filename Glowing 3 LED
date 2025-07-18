@@ -1,0 +1,30 @@
+const int ledPin1 = 13;
+const int ledPin2 = 12;
+const int ledPin3 = 11;
+
+
+void setup() {
+  
+  pinMode(ledPin1, OUTPUT);
+  pinMode(ledPin2, OUTPUT);
+  pinMode(ledPin3, OUTPUT);
+  
+}
+
+void loop() {
+
+{
+digitalWrite(ledPin1,HIGH);
+Serial.println("LED ON");
+
+
+digitalWrite(ledPin2,HIGH);
+Serial.println("LED ON");
+
+
+
+digitalWrite(ledPin3,HIGH);
+Serial.println("LED ON");
+ 
+}
+}
